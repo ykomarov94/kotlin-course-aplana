@@ -1,4 +1,4 @@
-package Module1
+package module1
 
 fun main() {
     val five: Char = '5'

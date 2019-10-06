@@ -1,4 +1,4 @@
-package Module1
+package module1
 
 fun main(args: Array<String>) {
     var undefinedVariable: Any? = null

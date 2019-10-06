@@ -1,4 +1,4 @@
-package Module1
+package module1
 
 fun main() {
     println("Hi there! What can I call you?")
