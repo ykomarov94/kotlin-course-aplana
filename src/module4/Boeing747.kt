@@ -8,4 +8,9 @@ class Boeing747(_maxPassengers: Int = 660) : Aircraft(747, 14200.0,241140.0), Pa
     init {
         MaxPassengers = _maxPassengers
     }
+
+    override fun printInfo() {
+        super.printInfo()
+        println("Максимальное число пассажиров:\t $MaxPassengers")
+    }
 }
