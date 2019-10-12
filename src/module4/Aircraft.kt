@@ -2,7 +2,7 @@ package module4
 
 // В качестве примера параметров взят Boeing 737-300
 // https://www.airlines-inform.ru/commercial-aircraft/Boeing-737-300.html
-open class Aircraft(_idNUmber: Int, _maxFlightDistance: Double, _maxFuelVolume: Double){
+abstract class Aircraft(_idNUmber: Int, _maxFlightDistance: Double, _maxFuelVolume: Double){
     var IdNumber: Int
     var MaxFlightDistance: Double
     var MaxFuelVolume: Double
